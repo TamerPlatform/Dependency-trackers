@@ -74,7 +74,7 @@ more-itertools==4.2.0
 msgpack==1.0.0
 mysqlclient==1.4.4
 netaddr==0.7.19
-numpy==1.19.5
+numpy==1.22.0
 olefile==0.46
 paramiko==2.7.2
 parso==0.8.1
