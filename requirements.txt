@@ -68,7 +68,7 @@ MarkupSafe==1.1.1
 matplotlib==3.3.4
 meld==3.20.2
 meld3==1.0.2
-mitmproxy==6.0.2
+mitmproxy==8.0.0
 mock==4.0.3
 more-itertools==4.2.0
 msgpack==1.0.0
