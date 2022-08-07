@@ -1,0 +1,18 @@
+
+buildscript {
+    apply from: 'dependencies.gradle'
+}
+plugins {
+    id 'org.springframework.boot' version "${springBootVersion}"
+    id 'io.spring.dependency-management' version "${springDependencyManagementVersion}"
+    ....
+}
+dependencies {
+    ....
+    implementation supportDependencies.springfox_boot_starter
+    implementation supportDependencies.hibernate_entitymanager
+    implementation supportDependencies.hibernate_core
+    implementation supportDependencies.c3p0
+   ....
+}
+....
