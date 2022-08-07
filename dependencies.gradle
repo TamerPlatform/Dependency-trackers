@@ -1,0 +1,25 @@
+
+ext {
+    // -- PLUGINS
+    springBootVersion = "2.5.5"
+    springDependencyManagementVersion = "1.0.11.RELEASE"
+    ....
+
+    //-- DEPENDENCIES
+     ....  
+     springFoxBootVersion = "3.0.0"
+    hibernateVersion = "5.4.31.Final"
+    c3p0Version = "0.9.5.5"
+    postgresVersion = "42.2.10"
+    .... 
+    supportDependencies = [
+            springfox_boot_starter            : "io.springfox:springfox-boot-starter:$springFoxBootVersion",
+            hibernate_entitymanager           : "org.hibernate:hibernate-entitymanager:$hibernateVersion",
+            hibernate_core                    : "org.hibernate:hibernate-core:$hibernateVersion",
+            c3p0                              : "com.mchange:c3p0:$c3p0Version"
+            hibernate_java8                   : "org.hibernate:hibernate-java8:$hibernateVersion",
+            postgresql                        : "org.postgresql:postgresql:$postgresVersion",
+            ....
+    ]
+}
+
