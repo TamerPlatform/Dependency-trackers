@@ -30,7 +30,7 @@ dfdatetime==20200824
 dfvfs==20201219
 dfwinreg==20201006
 distro==1.5.0
-Django==3.2.12
+Django==3.2.15
 dnspython==2.0.0
 dtfabric==20200621
 elasticsearch==7.1.0
