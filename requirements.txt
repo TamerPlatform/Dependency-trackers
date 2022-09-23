@@ -89,7 +89,7 @@ plaso==20201007
 ply==3.11
 powerline-status==2.8.1
 prompt-toolkit==3.0.14
-protobuf==3.12.4
+protobuf==3.18.3
 psutil==5.8.0
 psycopg2==2.8.6
 publicsuffix2==2.20191221
