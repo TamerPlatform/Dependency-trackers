@@ -1,0 +1,242 @@
+{
+  "path": "/Users/xlr8/WORK/github.com/TamerPlatform/Dependency-trackers/pom.xml",
+  "ecosystem": "Maven",
+  "packages": [
+    {
+      "package_detail": {
+        "name": "org.springframework.boot:spring-boot-starter-web",
+        "version": "0",
+        "ecosystem": "Maven",
+        "compareAs": "Maven"
+      },
+      "insights": {
+        "licenses": [],
+        "package_current_version": "3.1.5",
+        "projects": []
+      },
+      "depth": 0
+    },
+    {
+      "package_detail": {
+        "name": "org.owasp.encoder:encoder-jsp",
+        "version": "1.2.2",
+        "ecosystem": "Maven",
+        "compareAs": "Maven"
+      },
+      "insights": {
+        "dependencies": [
+          {
+            "description": "\n        The OWASP Encoder JSP package contains JSP tag definitions and TLDs to allow\n        easy use of the OWASP Encoder Project's core API. The TLDs contain both tag\n        definitions and JSP EL functions.\n    ",
+            "distance": 0,
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "package_version": {
+              "ecosystem": "MAVEN",
+              "name": "org.owasp.encoder:encoder-jsp",
+              "version": "1.2.2"
+            }
+          },
+          {
+            "description": "Java.net - The Source for Java Technology Collaboration",
+            "distance": 1,
+            "licenses": [
+              "non-standard"
+            ],
+            "package_version": {
+              "ecosystem": "MAVEN",
+              "name": "javax.servlet.jsp:javax.servlet.jsp-api",
+              "version": "2.2.1"
+            }
+          },
+          {
+            "description": "\n        The OWASP Encoders package is a collection of high-performance low-overhead\n        contextual encoders, that when utilized correctly, is an effective tool in\n        preventing Web Application security vulnerabilities such as Cross-Site\n        Scripting.\n    ",
+            "distance": 1,
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "package_version": {
+              "ecosystem": "MAVEN",
+              "name": "org.owasp.encoder:encoder",
+              "version": "1.2.2"
+            }
+          }
+        ],
+        "dependents": {
+          "direct_dependents": 2,
+          "indirect_dependents": 0,
+          "total_dependents": 2
+        },
+        "licenses": [
+          "BSD-3-Clause"
+        ],
+        "package_current_version": "1.2.3",
+        "package_version": {
+          "ecosystem": "MAVEN",
+          "name": "org.owasp.encoder:encoder-jsp",
+          "version": "1.2.2"
+        },
+        "projects": [
+          {
+            "display_name": "OWASP/owasp-java-encoder",
+            "forks": 113,
+            "issues": 9,
+            "link": "https://github.com/owasp/owasp-java-encoder",
+            "name": "owasp/owasp-java-encoder",
+            "stars": 463,
+            "type": "GITHUB"
+          }
+        ],
+        "scorecard": {
+          "content": {
+            "checks": [
+              {
+                "name": "Maintained",
+                "reason": "1 commit(s) out of 30 and 0 issue activity out of 30 found in the last 90 days -- score normalized to 0",
+                "score": 0
+              },
+              {
+                "name": "Code-Review",
+                "reason": "found 10 unreviewed changesets out of 16 -- score normalized to 3",
+                "score": 3
+              },
+              {
+                "name": "CII-Best-Practices",
+                "reason": "no effort to earn an OpenSSF best practices badge detected",
+                "score": 0
+              },
+              {
+                "name": "License",
+                "reason": "license file detected",
+                "score": 10
+              },
+              {
+                "name": "Signed-Releases",
+                "reason": "no releases found",
+                "score": -1
+              },
+              {
+                "name": "Token-Permissions",
+                "reason": "no github tokens found",
+                "score": -1
+              },
+              {
+                "name": "Pinned-Dependencies",
+                "reason": "no dependencies found",
+                "score": -1
+              },
+              {
+                "name": "Binary-Artifacts",
+                "reason": "no binaries found in the repo",
+                "score": 10
+              },
+              {
+                "name": "Packaging",
+                "reason": "no published package detected",
+                "score": -1
+              },
+              {
+                "name": "Dangerous-Workflow",
+                "reason": "no workflows found",
+                "score": -1
+              },
+              {
+                "name": "Branch-Protection",
+                "reason": "branch protection not enabled on development/release branches",
+                "score": 0
+              },
+              {
+                "name": "Fuzzing",
+                "reason": "project is not fuzzed",
+                "score": 0
+              },
+              {
+                "name": "Vulnerabilities",
+                "reason": "no vulnerabilities detected",
+                "score": 10
+              },
+              {
+                "name": "Security-Policy",
+                "reason": "security policy file not detected",
+                "score": 0
+              },
+              {
+                "name": "SAST",
+                "reason": "SAST tool is not run on all commits -- score normalized to 0",
+                "score": 0
+              }
+            ],
+            "date": "2023-10-02",
+            "repository": {
+              "commit": "ad296f224f1ad3c30cad46c64d8b45ec26e74fcd",
+              "name": "github.com/OWASP/owasp-java-encoder"
+            },
+            "score": 3.4,
+            "scorecard": {
+              "commit": "703430609bd5481f84bf4b53ff0df772b62dc43c",
+              "version": "v4.12.0-92-g70343060"
+            }
+          },
+          "version": "V2"
+        }
+      },
+      "depth": 0
+    },
+    {
+      "package_detail": {
+        "name": "org.springframework.boot:spring-boot-starter-test",
+        "version": "0",
+        "ecosystem": "Maven",
+        "compareAs": "Maven"
+      },
+      "insights": {
+        "licenses": [],
+        "package_current_version": "3.1.5",
+        "projects": []
+      },
+      "depth": 0
+    },
+    {
+      "package_detail": {
+        "name": "org.springframework.boot:spring-boot-starter-tomcat",
+        "version": "0",
+        "ecosystem": "Maven",
+        "compareAs": "Maven"
+      },
+      "insights": {
+        "licenses": [],
+        "package_current_version": "3.1.5",
+        "projects": []
+      },
+      "depth": 0
+    },
+    {
+      "package_detail": {
+        "name": "javax.servlet:jstl",
+        "version": "0",
+        "ecosystem": "Maven",
+        "compareAs": "Maven"
+      },
+      "insights": {
+        "licenses": [],
+        "package_current_version": "1.2",
+        "projects": []
+      },
+      "depth": 0
+    },
+    {
+      "package_detail": {
+        "name": "org.apache.tomcat.embed:tomcat-embed-jasper",
+        "version": "0",
+        "ecosystem": "Maven",
+        "compareAs": "Maven"
+      },
+      "insights": {
+        "licenses": [],
+        "package_current_version": "11.0.0-M13",
+        "projects": []
+      },
+      "depth": 0
+    }
+  ]
+}

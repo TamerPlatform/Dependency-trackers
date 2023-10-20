@@ -1,0 +1,288 @@
+# Vet Report
+
+## Summary
+
+|           |                       |
+|-----------|-----------------------|
+| Critical Vulns  | 12  |
+| High Vulns  | 26  |
+| Other Vulns  | 19  |
+| Unpopular Packages  | 40  |
+| Major Version Differences  | 187  |
+| Manifests | 3 |
+| Total Packages  | 570  |
+| Exepmted Packages | 0 |
+
+
+
+
+## Results
+
+| Manifest | Ecosystem | Packages | Need Update |
+|----------|-----------|----------|--------------------------|
+| /Users/xlr8/WORK/github.com/TamerPlatform/Dependency-trackers/package-lock.json | npm | 405 | 160 |
+| /Users/xlr8/WORK/github.com/TamerPlatform/Dependency-trackers/pom.xml | Maven | 6 | 4 |
+| /Users/xlr8/WORK/github.com/TamerPlatform/Dependency-trackers/requirements.txt | PyPI | 159 | 65 |
+
+## Policy Violation
+
+
+> No policy violation found or policy not configured during scan
+
+
+## Remediation Advice
+
+The table below lists advice for dependency upgrade to mitigate one or more
+issues identified during the scan.
+
+
+> /Users/xlr8/WORK/github.com/TamerPlatform/Dependency-trackers/package-lock.json
+
+| Package | Update Version | Impact Score | Issues | Tags   |
+|---------|----------------|--------------|--------|--------|
+| @11ty/dependency-tree@2.0.1 | 3.0.0 | 4 | - | [low popularity drift]
+| is-decimal@1.0.4 | 2.0.1 | 4 | - | [low popularity drift]
+| is-alphanumerical@1.0.4 | 2.0.1 | 4 | - | [low popularity drift]
+| upper-case@1.1.3 | 3.0.0 | 4 | - | [low popularity drift]
+| is-alphabetical@1.0.4 | 2.0.1 | 4 | - | [low popularity drift]
+| http-equiv-refresh@1.0.0 | 2.0.1 | 4 | - | [low popularity drift]
+| shebang-regex@3.0.0 | 4.0.0 | 2 | - | [drift]
+| regex-escape@3.4.10 | 3.4.10 | 2 | - | [low popularity]
+| path-key@3.1.1 | 4.0.0 | 2 | - | [drift]
+| list-to-array@1.1.0 | 1.1.0 | 2 | - | [low popularity]
+| wrap-ansi-cjs@7.0.0 | 8.0.0 | 2 | - | [drift]
+| string-width-cjs@4.2.3 | 5.1.1 | 2 | - | [drift]
+| domhandler@3.3.0 | 5.0.3 | 2 | - | [drift]
+| balanced-match@1.0.2 | 3.0.1 | 2 | - | [drift]
+| mime@2.6.0 | 3.0.0 | 2 | - | [drift]
+| node-addon-api@5.1.0 | 7.0.0 | 2 | - | [drift]
+| errno@0.1.8 | 1.0.0 | 2 | - | [drift]
+| ucfirst@1.0.0 | 1.0.0 | 2 | - | [low popularity]
+| mkdirp@0.5.6 | 3.0.1 | 2 | - | [drift]
+| emoji-regex@8.0.0 | 10.3.0 | 2 | - | [drift]
+| wrap-ansi@7.0.0 | 8.1.0 | 2 | - | [drift]
+| github-from-package@0.0.0 | 0.0.0 | 2 | - | [low popularity]
+| htmlparser2@6.1.0 | 9.0.0 | 2 | - | [drift]
+| promise@7.3.1 | 8.3.0 | 2 | - | [drift]
+| extend-shallow@2.0.1 | 3.0.2 | 2 | - | [drift]
+| juice@8.1.0 | 9.1.0 | 2 | - | [drift]
+| bl@4.1.0 | 6.0.7 | 2 | - | [drift]
+| parse5@6.0.1 | 7.1.2 | 2 | - | [drift]
+| commander@5.1.0 | 11.1.0 | 2 | - | [drift]
+| p-queue@6.6.2 | 7.4.1 | 2 | - | [drift]
+| bcp-47@1.0.8 | 2.1.0 | 2 | - | [drift]
+| character-parser@2.2.0 | 4.0.0 | 2 | - | [drift]
+| function.name@1.0.13 | 1.0.13 | 2 | - | [low popularity]
+| escape-goat@3.0.0 | 4.0.0 | 2 | - | [drift]
+| emoji-regex@9.2.2 | 10.3.0 | 2 | - | [drift]
+| whatwg-url@5.0.0 | 13.0.0 | 2 | - | [drift]
+| entities@2.2.0 | 4.5.0 | 2 | - | [drift]
+| mimic-response@3.1.0 | 4.0.0 | 2 | - | [drift]
+| chownr@1.1.4 | 2.0.0 | 2 | - | [drift]
+| isexe@2.0.0 | 3.1.1 | 2 | - | [drift]
+| @nodelib/fs.scandir@2.1.5 | 3.0.0 | 2 | - | [drift]
+| xmldom-sre@0.1.31 | 0.9.0-beta.7 | 2 | - | [low popularity]
+| clean-css@4.2.4 | 5.3.2 | 2 | - | [drift]
+| parse5-htmlparser2-tree-adapter@6.0.1 | 7.0.0 | 2 | - | [drift]
+| string-width@5.1.2 | 6.1.0 | 2 | - | [drift]
+| napi-build-utils@1.0.2 | 1.0.2 | 2 | - | [low popularity]
+| is-extendable@0.1.1 | 1.0.1 | 2 | - | [drift]
+| param-case@2.1.1 | 4.0.0 | 2 | - | [drift]
+| pngjs@6.0.0 | 7.0.0 | 2 | - | [drift]
+| minipass@3.3.6 | 7.0.4 | 2 | - | [drift]
+| bcp-47-normalize@1.1.1 | 2.3.0 | 2 | - | [drift]
+| rimraf@3.0.2 | 5.0.5 | 2 | - | [drift]
+| camel-case@3.0.0 | 5.0.0 | 2 | - | [drift]
+| immutable@4.3.4 | 5.0.0-beta.4 | 2 | - | [drift]
+| queue-tick@1.0.1 | 1.0.1 | 2 | - | [low popularity]
+| domhandler@4.3.1 | 5.0.3 | 2 | - | [drift]
+| js-yaml@3.14.1 | 4.1.0 | 2 | - | [drift]
+| array-differ@3.0.0 | 4.0.0 | 2 | - | [drift]
+| arrify@2.0.1 | 3.0.0 | 2 | - | [drift]
+| decompress-response@6.0.0 | 8.1.0 | 2 | - | [drift]
+| pify@2.3.0 | 6.1.0 | 2 | - | [drift]
+| a-sync-waterfall@1.0.1 | 1.0.1 | 2 | - | [low popularity]
+| multimatch@5.0.0 | 6.0.0 | 2 | - | [drift]
+| queue@6.0.2 | 7.0.0 | 2 | - | [drift]
+| entities@3.0.1 | 4.5.0 | 2 | - | [drift]
+| slash@1.0.0 | 5.1.0 | 2 | - | [drift]
+| pug-code-gen@3.0.2 | 2.0.3 | 2 | - | [drift]
+| glob@7.2.3 | 10.3.10 | 2 | - | [drift]
+| valid-data-url@3.0.1 | 5.0.0 | 2 | - | [drift]
+| glob-parent@5.1.2 | 6.0.2 | 2 | - | [drift]
+| buffer@5.7.1 | 6.0.3 | 2 | - | [drift]
+| @types/node@17.0.45 | 20.8.7 | 2 | - | [drift]
+| is-expression@4.0.0 | 4.0.0 | 2 | - | [low popularity]
+| ansi-regex@5.0.1 | 6.0.1 | 2 | - | [drift]
+| ssri@8.0.1 | 10.0.5 | 2 | - | [drift]
+| argparse@1.0.10 | 2.0.1 | 2 | - | [drift]
+| node-addon-api@6.1.0 | 7.0.0 | 2 | - | [drift]
+| is-promise@2.2.2 | 4.0.0 | 2 | - | [drift]
+| array-uniq@1.0.3 | 3.0.0 | 2 | - | [drift]
+| mkdirp-classic@0.5.3 | 0.5.3 | 2 | - | [low popularity]
+| commander@9.2.0 | 11.1.0 | 2 | - | [drift]
+| tar-stream@2.2.0 | 3.1.6 | 2 | - | [drift]
+| read-dir-and-stat@1.0.8 | 1.0.8 | 2 | - | [low popularity]
+| css-select@4.3.0 | 5.1.0 | 2 | - | [drift]
+| supports-color@8.1.1 | 9.4.0 | 2 | - | [drift]
+| path-is-absolute@1.0.1 | 2.0.0 | 2 | - | [drift]
+| no-case@2.3.2 | 4.0.0 | 2 | - | [drift]
+| minimatch@5.1.6 | 9.0.3 | 2 | - | [drift]
+| supports-preserve-symlinks-flag@1.0.0 | 1.0.0 | 2 | - | [low popularity]
+| htmlparser2@5.0.1 | 9.0.0 | 2 | - | [drift]
+| domutils@2.8.0 | 3.1.0 | 2 | - | [drift]
+| to-fast-properties@2.0.0 | 4.0.0 | 2 | - | [drift]
+| doctypes@1.1.0 | 1.1.0 | 2 | - | [low popularity]
+| @11ty/eleventy-utils@1.0.2 | 1.0.2 | 2 | - | [low popularity]
+| strip-ansi@6.0.1 | 7.1.0 | 2 | - | [drift]
+| lower-case@1.1.4 | 3.0.0 | 2 | - | [drift]
+| same-time@2.3.5 | 2.3.5 | 2 | - | [low popularity]
+| ansi-styles@4.3.0 | 6.2.1 | 2 | - | [drift]
+| strip-ansi-cjs@6.0.1 | 8.0.0 | 2 | - | [drift]
+| posthtml-urls@1.0.0 | 1.0.0 | 2 | - | [low popularity]
+| color-name@1.1.4 | 2.0.0 | 2 | - | [drift]
+| string-width@4.2.3 | 6.1.0 | 2 | - | [drift]
+| p-finally@1.0.0 | 3.0.0 | 2 | - | [drift]
+| camelo@1.2.1 | 1.2.1 | 2 | - | [low popularity]
+| uc-first-array@1.1.10 | 1.1.10 | 2 | - | [low popularity]
+| lru-cache@6.0.0 | 10.0.1 | 2 | - | [drift]
+| node-fetch@2.7.0 | 3.3.2 | 2 | - | [drift]
+| iso-639-1@2.1.15 | 3.1.0 | 2 | - | [drift]
+| bindy@1.0.14 | 1.0.14 | 2 | - | [low popularity]
+| uc.micro@1.0.6 | 1.0.6 | 2 | - | [low popularity]
+| has-tostringtag@1.0.0 | 1.0.0 | 2 | - | [low popularity]
+| array-union@1.0.2 | 3.0.1 | 2 | - | [drift]
+| noop6@1.0.9 | 1.0.9 | 2 | - | [low popularity]
+| commander@6.2.1 | 11.1.0 | 2 | - | [drift]
+| is-fullwidth-code-point@3.0.0 | 4.0.0 | 2 | - | [drift]
+| call-bind@1.0.2 | 1.0.4 | 2 | - | [low popularity]
+| @sindresorhus/transliterate@0.1.2 | 1.6.0 | 2 | - | [drift]
+| webidl-conversions@3.0.1 | 7.0.0 | 2 | - | [drift]
+| htmlparser2@7.2.0 | 9.0.0 | 2 | - | [drift]
+| escape-string-regexp@4.0.0 | 5.0.0 | 2 | - | [drift]
+| brace-expansion@1.1.11 | 3.0.0 | 2 | - | [drift]
+| has-flag@4.0.0 | 5.0.1 | 2 | - | [drift]
+| array-differ@1.0.0 | 4.0.0 | 2 | - | [drift]
+| @types/minimatch@3.0.5 | 5.1.2 | 2 | - | [drift]
+| acorn@7.4.1 | 8.10.0 | 2 | - | [drift]
+| junk@1.0.3 | 4.0.1 | 2 | - | [drift]
+| brace-expansion@2.0.1 | 3.0.0 | 2 | - | [drift]
+| fs-file-tree@1.1.1 | 1.1.1 | 2 | - | [low popularity]
+| @sindresorhus/slugify@1.1.2 | 2.2.1 | 2 | - | [drift]
+| commander@10.0.1 | 11.1.0 | 2 | - | [drift]
+| bcp-47-match@1.0.3 | 2.0.3 | 2 | - | [drift]
+| readable-stream@3.6.2 | 4.4.2 | 2 | - | [drift]
+| eleventy-plugin-gen-favicons@1.1.2 | 1.1.2 | 2 | - | [low popularity]
+| cheerio-select@1.6.0 | 2.1.0 | 2 | - | [drift]
+| array-union@2.1.0 | 3.0.1 | 2 | - | [drift]
+| deffy@2.0.0 | 2.2.4 | 2 | - | [low popularity]
+| commander@2.20.3 | 11.1.0 | 2 | - | [drift]
+| rimraf@2.7.1 | 5.0.5 | 2 | - | [drift]
+| deffy@2.2.4 | 2.2.4 | 2 | - | [low popularity]
+| p-timeout@3.2.0 | 6.1.2 | 2 | - | [drift]
+| arrify@1.0.1 | 3.0.0 | 2 | - | [drift]
+| has-proto@1.0.1 | 1.0.1 | 2 | - | [low popularity]
+| strip-bom-string@1.0.0 | 1.0.0 | 2 | - | [low popularity]
+| which@2.0.2 | 4.0.0 | 2 | - | [drift]
+| dom-serializer@1.4.1 | 2.0.0 | 2 | - | [drift]
+| eventemitter3@4.0.7 | 5.0.1 | 2 | - | [drift]
+| mj-context-menu@0.6.1 | 0.9.1 | 2 | - | [low popularity]
+| strip-json-comments@2.0.1 | 5.0.1 | 2 | - | [drift]
+| @nodelib/fs.stat@2.0.5 | 3.0.0 | 2 | - | [drift]
+| minimatch@3.1.2 | 9.0.3 | 2 | - | [drift]
+| @nodelib/fs.walk@1.2.8 | 2.0.0 | 2 | - | [drift]
+| tr46@0.0.3 | 4.1.1 | 2 | - | [drift]
+| filelist@1.0.4 | 1.0.4 | 2 | - | [low popularity]
+| supports-color@7.2.0 | 9.4.0 | 2 | - | [drift]
+| chalk@4.1.2 | 5.3.0 | 2 | - | [drift]
+| any-promise@0.1.0 | 1.3.0 | 2 | - | [drift]
+| tar-fs@2.1.1 | 3.0.4 | 2 | - | [drift]
+| debug@2.6.9 | 4.3.4 | 2 | - | [drift]
+| ini@1.3.8 | 4.1.1 | 2 | - | [drift]
+| escape-string-regexp@2.0.0 | 5.0.0 | 2 | - | [drift]
+| assured@1.0.15 | 1.0.15 | 2 | - | [low popularity]
+
+> /Users/xlr8/WORK/github.com/TamerPlatform/Dependency-trackers/pom.xml
+
+| Package | Update Version | Impact Score | Issues | Tags   |
+|---------|----------------|--------------|--------|--------|
+| org.springframework.boot:spring-boot-starter-tomcat@0 | 3.1.5 | 2 | - | [drift]
+| org.springframework.boot:spring-boot-starter-test@0 | 3.1.5 | 2 | - | [drift]
+| org.apache.tomcat.embed:tomcat-embed-jasper@0 | 11.0.0-M13 | 2 | - | [drift]
+| javax.servlet:jstl@0 | 1.2 | 2 | - | [drift]
+| org.springframework.boot:spring-boot-starter-web@0 | 3.1.5 | 2 | - | [drift]
+
+> /Users/xlr8/WORK/github.com/TamerPlatform/Dependency-trackers/requirements.txt
+
+| Package | Update Version | Impact Score | Issues | Tags   |
+|---------|----------------|--------------|--------|--------|
+| pillow@8.1.2 | 10.1.0 | 49 | - | [vulnerability drift]
+| django@3.2.12 | 4.2.6 | 37 | - | [vulnerability drift]
+| mitmproxy@6.0.2 | 10.1.1 | 10 | - | [vulnerability drift]
+| protobuf@3.12.4 | 4.24.4 | 8 | - | [vulnerability drift]
+| pygments@2.7.1 | 2.16.1 | 7 | - | [vulnerability]
+| pyyaml@5.3.1 | 6.0.1 | 7 | - | [vulnerability drift]
+| urllib3@1.26.5 | 2.0.7 | 7 | - | [vulnerability drift]
+| certifi@2020.6.20 | 2023.7.22 | 6 | - | [vulnerability drift]
+| ipython@7.20.0 | 8.16.1 | 6 | - | [vulnerability drift]
+| cryptography@3.3.2 | 41.0.4 | 6 | - | [vulnerability drift]
+| flask@1.1.2 | 3.0.0 | 5 | - | [vulnerability drift]
+| werkzeug@1.0.1 | 3.0.0 | 5 | - | [vulnerability drift]
+| impacket@0.9.22 | 0.11.0 | 5 | - | [vulnerability]
+| lxml@4.6.3 | 4.9.3 | 4 | - | [vulnerability]
+| sqlparse@0.4.1 | 0.4.4 | 4 | - | [vulnerability]
+| future@0.18.2 | 0.18.3 | 3 | - | [vulnerability]
+| mako@1.1.3 | 1.2.4 | 3 | - | [vulnerability]
+| decorator@4.4.2 | 5.1.1 | 2 | - | [drift]
+| plaso@20201007 | 20230717.0.0 | 2 | - | [drift]
+| requests-toolbelt@0.9.1 | 1.0.0 | 2 | - | [drift]
+| cwcwidth@0.1.4 | 0.1.9 | 2 | - | [low popularity]
+| invoke@1.4.1 | 2.2.0 | 2 | - | [drift]
+| click@7.1.2 | 8.1.7 | 2 | - | [drift]
+| numpy@1.19.5 | 1.26.1 | 2 | - | [vulnerability]
+| zipp@1.0.0 | 3.17.0 | 2 | - | [drift]
+| xlsxwriter@1.1.2 | 3.1.9 | 2 | - | [drift]
+| capstone@4.0.2 | 5.0.1 | 2 | - | [drift]
+| idna@2.10 | 3.4.0 | 2 | - | [drift]
+| python-apt@2.2.1 | 0.7.8 | 2 | - | [drift]
+| pefile@2019.4.18 | 2023.2.7 | 2 | - | [drift]
+| paramiko@2.7.2 | 3.3.1 | 2 | - | [drift]
+| watchdog@1.0.2 | 3.0.0 | 2 | - | [drift]
+| artifacts@20201106 | 20230928.0.0 | 2 | - | [drift]
+| pyzmq@20.0.0 | 25.1.1 | 2 | - | [drift]
+| xdg@5 | 6.0.0 | 2 | - | [drift]
+| mysqlclient@1.4.4 | 2.2.0 | 2 | - | [drift]
+| dtfabric@20200621 | 20230520.0.0 | 2 | - | [drift]
+| dfdatetime@20200824 | 20230506.0.0 | 2 | - | [drift]
+| dfwinreg@20201006 | 20221218.0.0 | 2 | - | [drift]
+| elasticsearch@7.1.0 | 8.10.1 | 2 | - | [drift]
+| meld@3.20.2 | 1.0.2 | 2 | - | [drift]
+| importlib-metadata@1.6.0 | 6.8.0 | 2 | - | [drift]
+| meld3@1.0.2 | 2.0.1 | 2 | - | [drift]
+| lz4@3.1.3+dfsg | 4.3.2 | 2 | - | [drift]
+| dfvfs@20201219 | 20230531.0.0 | 2 | - | [drift]
+| bcrypt@3.1.7 | 4.0.1 | 2 | - | [drift]
+| pytsk3@20200117 | 20231007.0.0 | 2 | - | [drift]
+| wsproto@0.15.0 | 1.2.0 | 2 | - | [drift]
+| pyparsing@2.4.7 | 3.1.1 | 2 | - | [drift]
+| argcomplete@1.8.1 | 3.1.2 | 2 | - | [drift]
+| patator@0.9 | 1.0.0 | 2 | - | [drift]
+| markupsafe@1.1.1 | 2.1.3 | 2 | - | [drift]
+| mock@4.0.3 | 5.1.0 | 2 | - | [drift]
+| chardet@4.0.0 | 5.2.0 | 2 | - | [drift]
+| more-itertools@4.2.0 | 10.1.0 | 2 | - | [drift]
+| greenlet@0.4.17 | 3.0.0 | 2 | - | [drift]
+| jinja2@2.11.3 | 3.1.2 | 2 | - | [drift]
+| redis@3.5.3 | 5.0.1 | 2 | - | [drift]
+| pyopenssl@20.0.1 | 23.2.0 | 2 | - | [drift]
+| terminator@2.1.0 | 0.0.0 | 2 | - | [drift]
+| exifread@2.3.2 | 3.0.0 | 2 | - | [drift]
+| itsdangerous@1.1.0 | 2.1.2 | 2 | - | [drift]
+| requests@2.25.1 | 2.31.0 | 1 | - | [vulnerability]
+| tornado@6.1 | 6.3.3 | 1 | - | [vulnerability]
+| scipy@1.6.0 | 1.11.3 | 1 | - | [vulnerability]
+| configobj@5.0.6 | 5.0.8 | 0 | - | [vulnerability]
+
+
+
+
