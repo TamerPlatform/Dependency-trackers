@@ -36,7 +36,7 @@ dtfabric==20200621
 elasticsearch==7.1.0
 enjarify==1.0.3
 ExifRead==2.3.2
-Flask==1.1.2
+Flask==2.2.5
 future==0.18.2
 gpg===1.14.0-unknown
 greenlet==0.4.17
